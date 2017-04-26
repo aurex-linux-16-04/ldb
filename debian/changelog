@@ -1,3 +1,10 @@
+ldb (2:1.1.26-1ubuntu5~aurex1) xenial; urgency=medium
+
+  * Backport of ldb 2:1.1.26 from yakkety because samba 4.4.5 requires
+    ldb (>= 2:1.1.26~) as build-depend
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 26 Apr 2017 17:32:38 +0200
+
 ldb (2:1.1.26-1ubuntu5) yakkety; urgency=medium
 
   * debian/rules: Override dh_install to set the python include dir.
